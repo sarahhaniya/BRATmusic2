@@ -1,0 +1,42 @@
+/* UnauthNavbar.css */
+/* UnauthNavbar.module.css */
+.navbar {
+   background-color: black;
+   color: white;
+   padding: 10px 20px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1000;
+   display: flex; /* Ensures everything in the navbar is inline */
+   align-items: center; /* Vertically centers the items in the navbar */
+   justify-content: space-between; /* Spaces out the items within the navbar */
+}
+
+.navbar img {
+   margin-left: 20px;
+   margin-top: 10px;
+   height: 50px; /* Or any size that fits well in your navbar */
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex; /* Ensures that the list items are inline */
+   align-items: center; /* Centers items vertically */
+}
+
+li {
+   margin-right: 40px;
+   cursor: pointer;
+}
+
+li:last-child {
+   margin-right: 20px; /* Removes margin from the last item */
+}
+
+li:hover {
+   color: #88e64a; /* Changes text color on hover */
+}
